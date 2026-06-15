@@ -13,7 +13,7 @@
 [ext_resource type="Resource" uid="uid://dlghulvg0oxjr" path="res://TELT/Resources/Cards/Uncommon_Drake.tres" id="10_pdy12"]
 [ext_resource type="Resource" uid="uid://boqidqeaykju1" path="res://TELT/Resources/Cards/Rare_Hilda.tres" id="11_l02ju"]
 [ext_resource type="Script" uid="uid://cnaj1wf4hjc4j" path="res://TELT/Resources/BossData.cs" id="12_7w2lb"]
-[ext_resource type="Resource" uid="uid://chnmxj8nffc8y" path="res://Dungeon_floor_2/dialog/Boss/Hilda.dialogue" id="13_fo23b"]
+[ext_resource type="Resource" uid="uid://chnmxj8nffc8y" path="res://Levels/Dungeon_floor_2/dialog/Boss/Hilda.dialogue" id="13_fo23b"]
 
 [resource]
 script = ExtResource("12_7w2lb")

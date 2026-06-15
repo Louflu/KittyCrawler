@@ -10,7 +10,7 @@
 [ext_resource type="Resource" uid="uid://brxvt3x7w7m6p" path="res://TELT/Resources/Cards/Uncommon_Sludge.tres" id="8_wcuf2"]
 [ext_resource type="Resource" uid="uid://b0blolq32skeh" path="res://TELT/Resources/Cards/Uncommon_Druid.tres" id="9_3hwqs"]
 [ext_resource type="Resource" uid="uid://ck3o4wvt56ffh" path="res://TELT/Resources/Cards/Rare_Croxy.tres" id="10_tkr24"]
-[ext_resource type="Resource" uid="uid://7dn5mi5678ew" path="res://Dungeon_floor_2/dialog/Boss/Croxy.dialogue" id="11_60kpi"]
+[ext_resource type="Resource" uid="uid://7dn5mi5678ew" path="res://Levels/Dungeon_floor_2/dialog/Boss/Croxy.dialogue" id="11_60kpi"]
 [ext_resource type="Script" uid="uid://cnaj1wf4hjc4j" path="res://TELT/Resources/BossData.cs" id="11_arent"]
 
 [resource]

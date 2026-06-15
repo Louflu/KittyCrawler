@@ -14,7 +14,7 @@
 [ext_resource type="Resource" uid="uid://cxtb07ekdfxan" path="res://TELT/Resources/Cards/Common_Wraith.tres" id="9_4g3i3"]
 [ext_resource type="Resource" uid="uid://bvt4xcl0yp4xw" path="res://TELT/Resources/Cards/Rare_Eve.tres" id="10_llpn4"]
 [ext_resource type="Script" uid="uid://cnaj1wf4hjc4j" path="res://TELT/Resources/BossData.cs" id="11_t0kr6"]
-[ext_resource type="Resource" uid="uid://ci1cqcbbyrh03" path="res://Dungeon_floor_2/dialog/Boss/Eve.dialogue" id="14_nyip2"]
+[ext_resource type="Resource" uid="uid://ci1cqcbbyrh03" path="res://Levels/Dungeon_floor_2/dialog/Boss/Eve.dialogue" id="14_nyip2"]
 
 [resource]
 script = ExtResource("11_t0kr6")

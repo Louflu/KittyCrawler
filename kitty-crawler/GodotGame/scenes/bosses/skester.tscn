@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bv8yy45rumixn"]
 
 [ext_resource type="Script" uid="uid://drj64kp27m0gt" path="res://scripts/Boss.cs" id="1_63bc8"]
-[ext_resource type="Texture2D" uid="uid://dmqge75mn5xu0" path="res://Dungeon_floor_2/Tileset/Skester/Skester_sprite.png" id="1_xkcc4"]
-[ext_resource type="Texture2D" uid="uid://ulyjlcnp5l5v" path="res://Dungeon_floor_2/Tileset/Skester/Skester_spawning.png" id="2_xkcc4"]
+[ext_resource type="Texture2D" uid="uid://dmqge75mn5xu0" path="res://Levels/Dungeon_floor_2/Tileset/Skester/Skester_sprite.png" id="1_xkcc4"]
+[ext_resource type="Texture2D" uid="uid://ulyjlcnp5l5v" path="res://Levels/Dungeon_floor_2/Tileset/Skester/Skester_spawning.png" id="2_xkcc4"]
 [ext_resource type="Texture2D" uid="uid://dlpmfwdhvg4j" path="res://assets/Characters/Bringer-Of-Death/SpriteSheet/Bringer-of-Death-SpritSheet_no-Effect.png" id="4_5a8mh"]
 [ext_resource type="Script" uid="uid://diwudeabwx7vt" path="res://scripts/LevelTransition.cs" id="4_n4t4o"]
 

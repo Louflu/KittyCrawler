@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dkrfrlolxmauo"
+path="res://.godot/imported/Skara.dialogue-32f1052fdfe98d107fd4fb3846ff985e.tres"
+
+[deps]
+
+source_file="res://Levels/Dungeon_floor_2/dialog/NPC/Skara.dialogue"
+dest_files=["res://.godot/imported/Skara.dialogue-32f1052fdfe98d107fd4fb3846ff985e.tres"]
+
+[params]
+
+defaults=true

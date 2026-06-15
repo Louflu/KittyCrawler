@@ -16,7 +16,7 @@
 [ext_resource type="Resource" uid="uid://cnq2f1ospem8p" path="res://TELT/Resources/Cards/Common_Skeleton.tres" id="12_buflu"]
 [ext_resource type="Resource" uid="uid://bbjpsi1og3lje" path="res://TELT/Resources/Cards/Common_Bat.tres" id="12_p0njt"]
 [ext_resource type="Script" uid="uid://cnaj1wf4hjc4j" path="res://TELT/Resources/BossData.cs" id="13_si7n7"]
-[ext_resource type="Resource" uid="uid://nwnl3n8snwvt" path="res://Dungeon_floor_2/dialog/Boss/Skester.dialogue" id="16_hoqgj"]
+[ext_resource type="Resource" uid="uid://nwnl3n8snwvt" path="res://Levels/Dungeon_floor_2/dialog/Boss/Skester.dialogue" id="16_hoqgj"]
 
 [resource]
 script = ExtResource("13_si7n7")
