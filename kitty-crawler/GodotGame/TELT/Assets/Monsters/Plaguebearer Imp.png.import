@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvc3m7uh5n5v4"
-path="res://.godot/imported/Plaguebearer Imp.png-6bdd6f22ccca035a2090483029f595e0.ctex"
+path="res://.godot/imported/Plaguebearer Imp.png-1f5c0307b2b535ed4d430dafbc110ce7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Plaguebearer Imp.png"
-dest_files=["res://.godot/imported/Plaguebearer Imp.png-6bdd6f22ccca035a2090483029f595e0.ctex"]
+source_file="res://TELT/Assets/Monsters/Plaguebearer Imp.png"
+dest_files=["res://.godot/imported/Plaguebearer Imp.png-1f5c0307b2b535ed4d430dafbc110ce7.ctex"]
 
 [params]
 

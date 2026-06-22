@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dr1ckol4mcfj1"
-path="res://.godot/imported/Abyss Goblin.png-fe40150b35a8681a59d8988be4297130.ctex"
+uid="uid://my3iqjl1g0lg"
+path="res://.godot/imported/logo.png-a90f5ddf905ba8f4713ad9bc9fba55eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Assets/Monsters/Abyss Goblin.png"
-dest_files=["res://.godot/imported/Abyss Goblin.png-fe40150b35a8681a59d8988be4297130.ctex"]
+source_file="res://assets/Characters/BlackCat/logo.png"
+dest_files=["res://.godot/imported/logo.png-a90f5ddf905ba8f4713ad9bc9fba55eb.ctex"]
 
 [params]
 

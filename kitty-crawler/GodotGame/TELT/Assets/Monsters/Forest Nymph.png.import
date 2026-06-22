@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnrla7t2ktyim"
-path="res://.godot/imported/Forest Nymph.png-5edca84ca2acf2118128707e8f2a9668.ctex"
+path="res://.godot/imported/Forest Nymph.png-a1015b4b4ad7066d1414f5956e32f9bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Forest Nymph.png"
-dest_files=["res://.godot/imported/Forest Nymph.png-5edca84ca2acf2118128707e8f2a9668.ctex"]
+source_file="res://TELT/Assets/Monsters/Forest Nymph.png"
+dest_files=["res://.godot/imported/Forest Nymph.png-a1015b4b4ad7066d1414f5956e32f9bc.ctex"]
 
 [params]
 

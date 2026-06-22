@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0d2v6q7a26w4"
-path="res://.godot/imported/Modular_Fantasy_Cards_Spritesheet.png-bbadc13a3cce4d46fb419f191157139d.ctex"
+path="res://.godot/imported/Modular_Fantasy_Cards_Spritesheet.png-b5cc65e74f8a0f7e6c30a29e47f0d175.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Modular_Fantasy_Cards_Spritesheet.png"
-dest_files=["res://.godot/imported/Modular_Fantasy_Cards_Spritesheet.png-bbadc13a3cce4d46fb419f191157139d.ctex"]
+source_file="res://TELT/Assets/Frame/Modular_Fantasy_Cards_Spritesheet.png"
+dest_files=["res://.godot/imported/Modular_Fantasy_Cards_Spritesheet.png-b5cc65e74f8a0f7e6c30a29e47f0d175.ctex"]
 
 [params]
 

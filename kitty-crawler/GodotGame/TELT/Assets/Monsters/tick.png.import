@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtm5r1kexbb30"
-path="res://.godot/imported/tick.png-c0025115227c15351ce7dee4d18837ad.ctex"
+path="res://.godot/imported/tick.png-ac94e33ee36258eb19dccdb426206f73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/tick.png"
-dest_files=["res://.godot/imported/tick.png-c0025115227c15351ce7dee4d18837ad.ctex"]
+source_file="res://TELT/Assets/Monsters/tick.png"
+dest_files=["res://.godot/imported/tick.png-ac94e33ee36258eb19dccdb426206f73.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx1noglo6nk3w"
-path="res://.godot/imported/Mio.png-9e094857860b0df6de6288443cc85830.ctex"
+path="res://.godot/imported/Mio.png-959b8971b250b1ee62078d411a502243.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Boss_sprites/Mio.png"
-dest_files=["res://.godot/imported/Mio.png-9e094857860b0df6de6288443cc85830.ctex"]
+source_file="res://TELT/Assets/Boss_sprites/Mio.png"
+dest_files=["res://.godot/imported/Mio.png-959b8971b250b1ee62078d411a502243.ctex"]
 
 [params]
 

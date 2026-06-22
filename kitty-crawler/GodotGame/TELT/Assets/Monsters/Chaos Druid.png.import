@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://busme80kev58p"
-path="res://.godot/imported/Chaos Druid.png-18102a187f2116d571c05abd3cb728c6.ctex"
+path="res://.godot/imported/Chaos Druid.png-039d14219023cf1055e84853b70c7be0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Chaos Druid.png"
-dest_files=["res://.godot/imported/Chaos Druid.png-18102a187f2116d571c05abd3cb728c6.ctex"]
+source_file="res://TELT/Assets/Monsters/Chaos Druid.png"
+dest_files=["res://.godot/imported/Chaos Druid.png-039d14219023cf1055e84853b70c7be0.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buaw65vax6xgy"
-path="res://.godot/imported/Suspicious Blob.png-591720efcc90dfc413f392083d233fc3.ctex"
+path="res://.godot/imported/Suspicious Blob.png-cfa035e00b8cf1d7574ef227f715bd10.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Suspicious Blob.png"
-dest_files=["res://.godot/imported/Suspicious Blob.png-591720efcc90dfc413f392083d233fc3.ctex"]
+source_file="res://TELT/Assets/Monsters/Suspicious Blob.png"
+dest_files=["res://.godot/imported/Suspicious Blob.png-cfa035e00b8cf1d7574ef227f715bd10.ctex"]
 
 [params]
 

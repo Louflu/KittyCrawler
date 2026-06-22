@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bow15ueddoy6t"
-path="res://.godot/imported/Junkyard Goliath.png-a0ad5e94bdd028a44c06e163389536ab.ctex"
+path="res://.godot/imported/Junkyard Goliath.png-45874217d295c6141e2aa9c02a66581c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Junkyard Goliath.png"
-dest_files=["res://.godot/imported/Junkyard Goliath.png-a0ad5e94bdd028a44c06e163389536ab.ctex"]
+source_file="res://TELT/Assets/Monsters/Junkyard Goliath.png"
+dest_files=["res://.godot/imported/Junkyard Goliath.png-45874217d295c6141e2aa9c02a66581c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdmd03q4ol5xm"
-path="res://.godot/imported/Wisp Wraith 1.png-6795094c83959627bfae996d7852ccd4.ctex"
+path="res://.godot/imported/Wisp Wraith 1.png-d7b2c8f05c99fceca647969bb1b17723.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Wisp Wraith 1.png"
-dest_files=["res://.godot/imported/Wisp Wraith 1.png-6795094c83959627bfae996d7852ccd4.ctex"]
+source_file="res://TELT/Assets/Monsters/Wisp Wraith 1.png"
+dest_files=["res://.godot/imported/Wisp Wraith 1.png-d7b2c8f05c99fceca647969bb1b17723.ctex"]
 
 [params]
 

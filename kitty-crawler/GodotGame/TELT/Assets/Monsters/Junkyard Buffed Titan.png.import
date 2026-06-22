@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp5sfq1s380rx"
-path="res://.godot/imported/Junkyard Buffed Titan.png-31eace2abe8e6a33818d95a6d5629374.ctex"
+path="res://.godot/imported/Junkyard Buffed Titan.png-fee1f8251d89e8d9b87f46a8c13e45fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Junkyard Buffed Titan.png"
-dest_files=["res://.godot/imported/Junkyard Buffed Titan.png-31eace2abe8e6a33818d95a6d5629374.ctex"]
+source_file="res://TELT/Assets/Monsters/Junkyard Buffed Titan.png"
+dest_files=["res://.godot/imported/Junkyard Buffed Titan.png-fee1f8251d89e8d9b87f46a8c13e45fa.ctex"]
 
 [params]
 

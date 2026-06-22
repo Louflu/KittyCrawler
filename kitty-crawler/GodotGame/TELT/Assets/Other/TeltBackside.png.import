@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyp0jvxtc5fuw"
-path="res://.godot/imported/TeltBackside.png-f0693234cf6a16cb7b90f381c932005a.ctex"
+path="res://.godot/imported/TeltBackside.png-1c73ac685c4091324d2f7173cc49fb3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Cardbacks/TeltBackside.png"
-dest_files=["res://.godot/imported/TeltBackside.png-f0693234cf6a16cb7b90f381c932005a.ctex"]
+source_file="res://TELT/Assets/Other/TeltBackside.png"
+dest_files=["res://.godot/imported/TeltBackside.png-1c73ac685c4091324d2f7173cc49fb3e.ctex"]
 
 [params]
 

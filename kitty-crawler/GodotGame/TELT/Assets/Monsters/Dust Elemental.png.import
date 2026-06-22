@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u21jg6bfbrsh"
-path="res://.godot/imported/Dust Elemental.png-5c4340937b284696bb7b50a90eb6c1d0.ctex"
+path="res://.godot/imported/Dust Elemental.png-70ca00ce995a6364b319c73906c0a78f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Dust Elemental.png"
-dest_files=["res://.godot/imported/Dust Elemental.png-5c4340937b284696bb7b50a90eb6c1d0.ctex"]
+source_file="res://TELT/Assets/Monsters/Dust Elemental.png"
+dest_files=["res://.godot/imported/Dust Elemental.png-70ca00ce995a6364b319c73906c0a78f.ctex"]
 
 [params]
 

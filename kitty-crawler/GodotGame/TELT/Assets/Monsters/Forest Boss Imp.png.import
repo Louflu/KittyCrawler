@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgkr0xen5g566"
-path="res://.godot/imported/Forest Boss Imp.png-5193dad4ff1da1f3896c241591511a95.ctex"
+path="res://.godot/imported/Forest Boss Imp.png-dc35c3e06e24cb74a37b5b310fe83cfc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Forest Boss Imp.png"
-dest_files=["res://.godot/imported/Forest Boss Imp.png-5193dad4ff1da1f3896c241591511a95.ctex"]
+source_file="res://TELT/Assets/Monsters/Forest Boss Imp.png"
+dest_files=["res://.godot/imported/Forest Boss Imp.png-dc35c3e06e24cb74a37b5b310fe83cfc.ctex"]
 
 [params]
 

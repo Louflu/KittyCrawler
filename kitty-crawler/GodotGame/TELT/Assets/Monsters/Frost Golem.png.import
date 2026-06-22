@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7i42jaqtbxil"
-path="res://.godot/imported/Frost Golem.png-a09dc38bb4398b58485a7e86edf4406c.ctex"
+path="res://.godot/imported/Frost Golem.png-617035cd0a3a260513ad68082ae55efd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Frost Golem.png"
-dest_files=["res://.godot/imported/Frost Golem.png-a09dc38bb4398b58485a7e86edf4406c.ctex"]
+source_file="res://TELT/Assets/Monsters/Frost Golem.png"
+dest_files=["res://.godot/imported/Frost Golem.png-617035cd0a3a260513ad68082ae55efd.ctex"]
 
 [params]
 

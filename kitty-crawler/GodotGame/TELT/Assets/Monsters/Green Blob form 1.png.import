@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doo1goeb516n3"
-path="res://.godot/imported/Green Blob form 1.png-d8839d402d27d5dc9e2e4f86dc21be7f.ctex"
+path="res://.godot/imported/Green Blob form 1.png-a3ba46d3df019dff78cd678c83acc79d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Green Blob form 1.png"
-dest_files=["res://.godot/imported/Green Blob form 1.png-d8839d402d27d5dc9e2e4f86dc21be7f.ctex"]
+source_file="res://TELT/Assets/Monsters/Green Blob form 1.png"
+dest_files=["res://.godot/imported/Green Blob form 1.png-a3ba46d3df019dff78cd678c83acc79d.ctex"]
 
 [params]
 

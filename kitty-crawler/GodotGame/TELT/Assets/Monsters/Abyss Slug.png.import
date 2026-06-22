@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dasaekh0m1juo"
-path="res://.godot/imported/Abyss Slug.png-c0b2daeb6672cc851135af9b3b8ffe8c.ctex"
+path="res://.godot/imported/Abyss Slug.png-51e9cd6def01673c74b7d48bc1489559.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Abyss Slug.png"
-dest_files=["res://.godot/imported/Abyss Slug.png-c0b2daeb6672cc851135af9b3b8ffe8c.ctex"]
+source_file="res://TELT/Assets/Monsters/Abyss Slug.png"
+dest_files=["res://.godot/imported/Abyss Slug.png-51e9cd6def01673c74b7d48bc1489559.ctex"]
 
 [params]
 

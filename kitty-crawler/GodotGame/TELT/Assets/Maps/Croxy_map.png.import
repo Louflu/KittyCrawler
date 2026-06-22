@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq7lhxduggqjd"
-path="res://.godot/imported/Croxy_map.png-9a605b54aaead320f3d77ea4a042700d.ctex"
+path="res://.godot/imported/Croxy_map.png-e771fa73f1dca532a6fbbc24e221ad2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Maps/Croxy_map.png"
-dest_files=["res://.godot/imported/Croxy_map.png-9a605b54aaead320f3d77ea4a042700d.ctex"]
+source_file="res://TELT/Assets/Maps/Croxy_map.png"
+dest_files=["res://.godot/imported/Croxy_map.png-e771fa73f1dca532a6fbbc24e221ad2e.ctex"]
 
 [params]
 

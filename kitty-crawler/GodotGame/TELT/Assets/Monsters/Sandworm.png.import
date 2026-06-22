@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtq3eik2dj8lx"
-path="res://.godot/imported/Sandworm.png-5bc003a5caeeaba81623912cd4435815.ctex"
+path="res://.godot/imported/Sandworm.png-2f036f19379aaa9cad782b93cff4c237.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Sandworm.png"
-dest_files=["res://.godot/imported/Sandworm.png-5bc003a5caeeaba81623912cd4435815.ctex"]
+source_file="res://TELT/Assets/Monsters/Sandworm.png"
+dest_files=["res://.godot/imported/Sandworm.png-2f036f19379aaa9cad782b93cff4c237.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6722ofi1muqr"
-path="res://.godot/imported/Abyss Monster.png-4efb2ece8669d39fff04c32f6ad06ec6.ctex"
+path="res://.godot/imported/Abyss Monster.png-c13c95deb6476495dc99d235feb33dc1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Abyss Monster.png"
-dest_files=["res://.godot/imported/Abyss Monster.png-4efb2ece8669d39fff04c32f6ad06ec6.ctex"]
+source_file="res://TELT/Assets/Monsters/Abyss Monster.png"
+dest_files=["res://.godot/imported/Abyss Monster.png-c13c95deb6476495dc99d235feb33dc1.ctex"]
 
 [params]
 

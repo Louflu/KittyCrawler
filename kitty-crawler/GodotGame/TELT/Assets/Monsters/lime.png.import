@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6wmq422qjvwm"
-path="res://.godot/imported/lime.png-60fe36aa129a7b717d4c546cbcc65b36.ctex"
+path="res://.godot/imported/lime.png-2799b16bcab9d52878de7c7d39eb0836.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/lime.png"
-dest_files=["res://.godot/imported/lime.png-60fe36aa129a7b717d4c546cbcc65b36.ctex"]
+source_file="res://TELT/Assets/Monsters/lime.png"
+dest_files=["res://.godot/imported/lime.png-2799b16bcab9d52878de7c7d39eb0836.ctex"]
 
 [params]
 

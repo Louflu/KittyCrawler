@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cy2cm6pdgjchn"
-path="res://.godot/imported/Frost Yetling.png-2d4b4de8656372487c4d6176b948ae0b.ctex"
+path="res://.godot/imported/Frost Yetling.png-685770d7950c4f022032b0b9e8a894dc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Frost Yetling.png"
-dest_files=["res://.godot/imported/Frost Yetling.png-2d4b4de8656372487c4d6176b948ae0b.ctex"]
+source_file="res://TELT/Assets/Monsters/Frost Yetling.png"
+dest_files=["res://.godot/imported/Frost Yetling.png-685770d7950c4f022032b0b9e8a894dc.ctex"]
 
 [params]
 

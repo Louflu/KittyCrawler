@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d31y104h1quyb"
-path="res://.godot/imported/Toxic Sludge Slime.png-3ce4febe450d5432f3ce89c9c546623c.ctex"
+path="res://.godot/imported/Toxic Sludge Slime.png-f65e3278de544c240b41e55d9a578223.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Toxic Sludge Slime.png"
-dest_files=["res://.godot/imported/Toxic Sludge Slime.png-3ce4febe450d5432f3ce89c9c546623c.ctex"]
+source_file="res://TELT/Assets/Monsters/Toxic Sludge Slime.png"
+dest_files=["res://.godot/imported/Toxic Sludge Slime.png-f65e3278de544c240b41e55d9a578223.ctex"]
 
 [params]
 

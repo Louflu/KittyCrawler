@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://q38m4rsntxap"
-path="res://.godot/imported/Frost Gorilla.png-3a472a024723b75e7bb4e04bb8b5f366.ctex"
+path="res://.godot/imported/Frost Gorilla.png-28b4fbc1d5fabb402f6531539b0fa65e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Frost Gorilla.png"
-dest_files=["res://.godot/imported/Frost Gorilla.png-3a472a024723b75e7bb4e04bb8b5f366.ctex"]
+source_file="res://TELT/Assets/Monsters/Frost Gorilla.png"
+dest_files=["res://.godot/imported/Frost Gorilla.png-28b4fbc1d5fabb402f6531539b0fa65e.ctex"]
 
 [params]
 

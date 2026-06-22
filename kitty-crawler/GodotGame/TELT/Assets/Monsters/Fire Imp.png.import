@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx50ppu4p8kyn"
-path="res://.godot/imported/Fire Imp.png-339313f2edca3fb24d7c8ab44693bee7.ctex"
+path="res://.godot/imported/Fire Imp.png-e92b21cc13117e9e3c0177f7459c0616.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Fire Imp.png"
-dest_files=["res://.godot/imported/Fire Imp.png-339313f2edca3fb24d7c8ab44693bee7.ctex"]
+source_file="res://TELT/Assets/Monsters/Fire Imp.png"
+dest_files=["res://.godot/imported/Fire Imp.png-e92b21cc13117e9e3c0177f7459c0616.ctex"]
 
 [params]
 

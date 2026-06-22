@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nnmbrmrscibk"
-path="res://.godot/imported/Junkyard Tiny Boxer.png-3cb2e18e16fb1c144690e5f7f4e4de2a.ctex"
+path="res://.godot/imported/Junkyard Tiny Boxer.png-a1f6ef341665d40b2c561ab3fa2b0d91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Junkyard Tiny Boxer.png"
-dest_files=["res://.godot/imported/Junkyard Tiny Boxer.png-3cb2e18e16fb1c144690e5f7f4e4de2a.ctex"]
+source_file="res://TELT/Assets/Monsters/Junkyard Tiny Boxer.png"
+dest_files=["res://.godot/imported/Junkyard Tiny Boxer.png-a1f6ef341665d40b2c561ab3fa2b0d91.ctex"]
 
 [params]
 

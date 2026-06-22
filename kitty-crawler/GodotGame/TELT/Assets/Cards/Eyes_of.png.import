@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m1hnrqg7r17w"
-path="res://.godot/imported/Eyes_of.png-75265129fbd53ffc1822ce7edd32f477.ctex"
+path="res://.godot/imported/Eyes_of.png-95daba17f24100aa79a50f605da69c8e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Eyes_of.png"
-dest_files=["res://.godot/imported/Eyes_of.png-75265129fbd53ffc1822ce7edd32f477.ctex"]
+source_file="res://TELT/Assets/Cards/Eyes_of.png"
+dest_files=["res://.godot/imported/Eyes_of.png-95daba17f24100aa79a50f605da69c8e.ctex"]
 
 [params]
 

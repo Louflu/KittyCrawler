@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c48cdf3885dnw"
-path="res://.godot/imported/Giant Spider.png-fa1489e108bd53994fc0f6d9aabc1629.ctex"
+path="res://.godot/imported/Giant Spider.png-458342c6d661d3efe4c4796ea270597a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Giant Spider.png"
-dest_files=["res://.godot/imported/Giant Spider.png-fa1489e108bd53994fc0f6d9aabc1629.ctex"]
+source_file="res://TELT/Assets/Monsters/Giant Spider.png"
+dest_files=["res://.godot/imported/Giant Spider.png-458342c6d661d3efe4c4796ea270597a.ctex"]
 
 [params]
 

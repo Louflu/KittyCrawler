@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chvjsmxcqh3u6"
-path="res://.godot/imported/Happy Blob.png-7a86a2a8d2c803032bdac0086c54f2f1.ctex"
+path="res://.godot/imported/Happy Blob.png-3a8d5f0ee829452921ccc82f6dde5220.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Happy Blob.png"
-dest_files=["res://.godot/imported/Happy Blob.png-7a86a2a8d2c803032bdac0086c54f2f1.ctex"]
+source_file="res://TELT/Assets/Monsters/Happy Blob.png"
+dest_files=["res://.godot/imported/Happy Blob.png-3a8d5f0ee829452921ccc82f6dde5220.ctex"]
 
 [params]
 

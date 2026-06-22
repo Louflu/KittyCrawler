@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://de2odlanq271c"
-path="res://.godot/imported/Phantom Minitaur.png-af6cfa6ea3d61189c742337a785620ed.ctex"
+path="res://.godot/imported/Phantom Minitaur.png-6f0f1e7971322c75dcd9475030a08676.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Phantom Minitaur.png"
-dest_files=["res://.godot/imported/Phantom Minitaur.png-af6cfa6ea3d61189c742337a785620ed.ctex"]
+source_file="res://TELT/Assets/Monsters/Phantom Minitaur.png"
+dest_files=["res://.godot/imported/Phantom Minitaur.png-6f0f1e7971322c75dcd9475030a08676.ctex"]
 
 [params]
 

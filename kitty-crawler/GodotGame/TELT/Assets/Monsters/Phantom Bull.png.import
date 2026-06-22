@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8utljkytwn18"
-path="res://.godot/imported/Phantom Bull.png-b5539c7746bec63cc10f1f33f29cbe37.ctex"
+path="res://.godot/imported/Phantom Bull.png-5c4b1b9eea4a703b31d9722ac94052e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Phantom Bull.png"
-dest_files=["res://.godot/imported/Phantom Bull.png-b5539c7746bec63cc10f1f33f29cbe37.ctex"]
+source_file="res://TELT/Assets/Monsters/Phantom Bull.png"
+dest_files=["res://.godot/imported/Phantom Bull.png-5c4b1b9eea4a703b31d9722ac94052e3.ctex"]
 
 [params]
 

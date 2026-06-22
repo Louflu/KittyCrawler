@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rrpof80cap5k"
-path="res://.godot/imported/AngelDemon.png-d1fa85afa8a84eabf741dfcb2a77d47d.ctex"
+path="res://.godot/imported/AngelDemon.png-3ed8343538a3d8455fd4f72813e63be6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/AngelDemon.png"
-dest_files=["res://.godot/imported/AngelDemon.png-d1fa85afa8a84eabf741dfcb2a77d47d.ctex"]
+source_file="res://TELT/Assets/Cards/AngelDemon.png"
+dest_files=["res://.godot/imported/AngelDemon.png-3ed8343538a3d8455fd4f72813e63be6.ctex"]
 
 [params]
 

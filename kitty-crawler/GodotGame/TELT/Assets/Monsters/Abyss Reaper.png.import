@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://g4pghy2j2rpp"
-path="res://.godot/imported/Abyss Reaper.png-3cd6c74fd97e656eaaf93c2565f609d0.ctex"
+path="res://.godot/imported/Abyss Reaper.png-79f9b30eafe4cbadc4081c208f434ea5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Abyss Reaper.png"
-dest_files=["res://.godot/imported/Abyss Reaper.png-3cd6c74fd97e656eaaf93c2565f609d0.ctex"]
+source_file="res://TELT/Assets/Monsters/Abyss Reaper.png"
+dest_files=["res://.godot/imported/Abyss Reaper.png-79f9b30eafe4cbadc4081c208f434ea5.ctex"]
 
 [params]
 

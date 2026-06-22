@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b753qx7r0tvmr"
-path="res://.godot/imported/Night Healing Imp.png-c6fda85a46cc236f2c8d71509d7c24a0.ctex"
+path="res://.godot/imported/Night Healing Imp.png-0b87d463aca327c214d02add142c45d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Night Healing Imp.png"
-dest_files=["res://.godot/imported/Night Healing Imp.png-c6fda85a46cc236f2c8d71509d7c24a0.ctex"]
+source_file="res://TELT/Assets/Monsters/Night Healing Imp.png"
+dest_files=["res://.godot/imported/Night Healing Imp.png-0b87d463aca327c214d02add142c45d7.ctex"]
 
 [params]
 

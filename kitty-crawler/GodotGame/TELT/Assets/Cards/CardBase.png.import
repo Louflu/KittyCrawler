@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkqmc1mw3eijv"
-path="res://.godot/imported/CardBase.png-0f88e7fa72b902299a4d09f51aac8396.ctex"
+path="res://.godot/imported/CardBase.png-7c97b20aab3179287ab7970bbd14982c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/CardBase.png"
-dest_files=["res://.godot/imported/CardBase.png-0f88e7fa72b902299a4d09f51aac8396.ctex"]
+source_file="res://TELT/Assets/Cards/CardBase.png"
+dest_files=["res://.godot/imported/CardBase.png-7c97b20aab3179287ab7970bbd14982c.ctex"]
 
 [params]
 

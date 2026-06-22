@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7msp76wxshwc"
-path="res://.godot/imported/Skeletal Rat.png-1a049577441352f0f8e69a9c0ad06705.ctex"
+path="res://.godot/imported/Skeletal Rat.png-9bc3576636a8531620f40422314181f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Skeletal Rat.png"
-dest_files=["res://.godot/imported/Skeletal Rat.png-1a049577441352f0f8e69a9c0ad06705.ctex"]
+source_file="res://TELT/Assets/Monsters/Skeletal Rat.png"
+dest_files=["res://.godot/imported/Skeletal Rat.png-9bc3576636a8531620f40422314181f2.ctex"]
 
 [params]
 

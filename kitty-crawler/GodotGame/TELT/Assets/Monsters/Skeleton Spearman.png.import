@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3wr18lf38c3m"
-path="res://.godot/imported/Skeleton Spearman.png-ea365d26b5031593c1a3d70d007c8123.ctex"
+path="res://.godot/imported/Skeleton Spearman.png-3bdc72f4ccc90a05f2ddae9c88495932.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Skeleton Spearman.png"
-dest_files=["res://.godot/imported/Skeleton Spearman.png-ea365d26b5031593c1a3d70d007c8123.ctex"]
+source_file="res://TELT/Assets/Monsters/Skeleton Spearman.png"
+dest_files=["res://.godot/imported/Skeleton Spearman.png-3bdc72f4ccc90a05f2ddae9c88495932.ctex"]
 
 [params]
 

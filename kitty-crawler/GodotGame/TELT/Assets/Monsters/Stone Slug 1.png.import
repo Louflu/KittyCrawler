@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buollrfj1nknv"
-path="res://.godot/imported/Stone Slug 1.png-760d27e8b4711d8ab7afd82070351674.ctex"
+path="res://.godot/imported/Stone Slug 1.png-64c3404441fda5c4a6a25d2d17f98d41.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Stone Slug 1.png"
-dest_files=["res://.godot/imported/Stone Slug 1.png-760d27e8b4711d8ab7afd82070351674.ctex"]
+source_file="res://TELT/Assets/Monsters/Stone Slug 1.png"
+dest_files=["res://.godot/imported/Stone Slug 1.png-64c3404441fda5c4a6a25d2d17f98d41.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://biaukbso7hap3"
-path="res://.godot/imported/Abyss Minion.png-765d21d5a331890e6d3aca59993d9a2c.ctex"
+path="res://.godot/imported/Abyss Minion.png-25dc006d76140b2c8a11fb537988a029.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Abyss Minion.png"
-dest_files=["res://.godot/imported/Abyss Minion.png-765d21d5a331890e6d3aca59993d9a2c.ctex"]
+source_file="res://TELT/Assets/Monsters/Abyss Minion.png"
+dest_files=["res://.godot/imported/Abyss Minion.png-25dc006d76140b2c8a11fb537988a029.ctex"]
 
 [params]
 

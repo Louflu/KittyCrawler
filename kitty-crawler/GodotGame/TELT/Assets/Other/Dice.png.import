@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjrasy6f2s5q4"
-path="res://.godot/imported/Dice.png-7d26045d0938299eaec75a7292852cea.ctex"
+path="res://.godot/imported/Dice.png-c90c53d90b491dfebc0c87054d4c3e03.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Dice.png"
-dest_files=["res://.godot/imported/Dice.png-7d26045d0938299eaec75a7292852cea.ctex"]
+source_file="res://TELT/Assets/Other/Dice.png"
+dest_files=["res://.godot/imported/Dice.png-c90c53d90b491dfebc0c87054d4c3e03.ctex"]
 
 [params]
 

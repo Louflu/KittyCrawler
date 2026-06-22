@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5p18gx1ji84l"
-path="res://.godot/imported/Volcano Imp.png-1f7a6d92a7f1a3ae1ba9026de389ab37.ctex"
+path="res://.godot/imported/Volcano Imp.png-003b18f4085ffbd7b801a59849238ad5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Volcano Imp.png"
-dest_files=["res://.godot/imported/Volcano Imp.png-1f7a6d92a7f1a3ae1ba9026de389ab37.ctex"]
+source_file="res://TELT/Assets/Monsters/Volcano Imp.png"
+dest_files=["res://.godot/imported/Volcano Imp.png-003b18f4085ffbd7b801a59849238ad5.ctex"]
 
 [params]
 

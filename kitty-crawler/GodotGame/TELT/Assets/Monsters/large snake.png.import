@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7iwduxwcqltj"
-path="res://.godot/imported/large snake.png-4e0de04d05a53a1a79591f017cfcc84b.ctex"
+path="res://.godot/imported/large snake.png-08b7934e578d0d1d795d45cbb143d3dc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/large snake.png"
-dest_files=["res://.godot/imported/large snake.png-4e0de04d05a53a1a79591f017cfcc84b.ctex"]
+source_file="res://TELT/Assets/Monsters/large snake.png"
+dest_files=["res://.godot/imported/large snake.png-08b7934e578d0d1d795d45cbb143d3dc.ctex"]
 
 [params]
 

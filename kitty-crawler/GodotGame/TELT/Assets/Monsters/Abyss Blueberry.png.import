@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://plpaort7mqc4"
-path="res://.godot/imported/Abyss Blueberry.png-05da4a5e496dfd27f4a51f05af0d2494.ctex"
+path="res://.godot/imported/Abyss Blueberry.png-2078b095b821cb9802c05e1d7b6f11ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Abyss Blueberry.png"
-dest_files=["res://.godot/imported/Abyss Blueberry.png-05da4a5e496dfd27f4a51f05af0d2494.ctex"]
+source_file="res://TELT/Assets/Monsters/Abyss Blueberry.png"
+dest_files=["res://.godot/imported/Abyss Blueberry.png-2078b095b821cb9802c05e1d7b6f11ea.ctex"]
 
 [params]
 

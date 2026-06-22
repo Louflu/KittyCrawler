@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pytfe1he4l2j"
-path="res://.godot/imported/CardButtonArt.png-89d6c266353d62d522d1c43e2126332d.ctex"
+path="res://.godot/imported/CardButtonArt.png-e020f95339e4931e6d611890c3685a0a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/CardButtonArt.png"
-dest_files=["res://.godot/imported/CardButtonArt.png-89d6c266353d62d522d1c43e2126332d.ctex"]
+source_file="res://TELT/Assets/Frame/CardButtonArt.png"
+dest_files=["res://.godot/imported/CardButtonArt.png-e020f95339e4931e6d611890c3685a0a.ctex"]
 
 [params]
 

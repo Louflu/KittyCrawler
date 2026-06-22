@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh0w1ywb6xxu0"
-path="res://.godot/imported/Frost Ice Buff.png-fedab37c957f2d4c8908cad05a916cb8.ctex"
+path="res://.godot/imported/Frost Ice Buff.png-480863aac5a1ca275629b221f9f55ecc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Frost Ice Buff.png"
-dest_files=["res://.godot/imported/Frost Ice Buff.png-fedab37c957f2d4c8908cad05a916cb8.ctex"]
+source_file="res://TELT/Assets/Monsters/Frost Ice Buff.png"
+dest_files=["res://.godot/imported/Frost Ice Buff.png-480863aac5a1ca275629b221f9f55ecc.ctex"]
 
 [params]
 

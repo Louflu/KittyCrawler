@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hoxf8q6tsbuu"
-path="res://.godot/imported/Spectral Hound.png-d0c1d1730740e39eb22b2caa0696468a.ctex"
+path="res://.godot/imported/Spectral Hound.png-39c260f384d84fa31781d4f047ccc4e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Spectral Hound.png"
-dest_files=["res://.godot/imported/Spectral Hound.png-d0c1d1730740e39eb22b2caa0696468a.ctex"]
+source_file="res://TELT/Assets/Monsters/Spectral Hound.png"
+dest_files=["res://.godot/imported/Spectral Hound.png-39c260f384d84fa31781d4f047ccc4e6.ctex"]
 
 [params]
 

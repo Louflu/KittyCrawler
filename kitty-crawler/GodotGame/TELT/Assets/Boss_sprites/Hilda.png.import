@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://03aga4i27eo7"
-path="res://.godot/imported/Hilda.png-3a8164f0a421d349df8c1b8c980deb07.ctex"
+path="res://.godot/imported/Hilda.png-ef71c25acdfb8ac76a17dc4841d6ddf5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Boss_sprites/Hilda.png"
-dest_files=["res://.godot/imported/Hilda.png-3a8164f0a421d349df8c1b8c980deb07.ctex"]
+source_file="res://TELT/Assets/Boss_sprites/Hilda.png"
+dest_files=["res://.godot/imported/Hilda.png-ef71c25acdfb8ac76a17dc4841d6ddf5.ctex"]
 
 [params]
 

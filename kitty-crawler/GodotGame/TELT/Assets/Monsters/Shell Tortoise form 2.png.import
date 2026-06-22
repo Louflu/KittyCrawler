@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnkhvjtks44hd"
-path="res://.godot/imported/Shell Tortoise form 2.png-2df21c4898cd70c3f33569ae44d7eb71.ctex"
+path="res://.godot/imported/Shell Tortoise form 2.png-d56a2736fc8c974d1455559af199fd21.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Shell Tortoise form 2.png"
-dest_files=["res://.godot/imported/Shell Tortoise form 2.png-2df21c4898cd70c3f33569ae44d7eb71.ctex"]
+source_file="res://TELT/Assets/Monsters/Shell Tortoise form 2.png"
+dest_files=["res://.godot/imported/Shell Tortoise form 2.png-d56a2736fc8c974d1455559af199fd21.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6cytayv130fn"
-path="res://.godot/imported/PuzzleMaster_card.png-90dbdfd423c0b79678491a5e9104d362.ctex"
+path="res://.godot/imported/PuzzleMaster_card.png-d6f1ba6d93ee30da2d046f77c1707cef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/PuzzleMaster_card.png"
-dest_files=["res://.godot/imported/PuzzleMaster_card.png-90dbdfd423c0b79678491a5e9104d362.ctex"]
+source_file="res://TELT/Assets/Cards/PuzzleMaster_card.png"
+dest_files=["res://.godot/imported/PuzzleMaster_card.png-d6f1ba6d93ee30da2d046f77c1707cef.ctex"]
 
 [params]
 

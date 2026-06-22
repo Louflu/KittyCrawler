@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bksfhdvtr2p0r"
-path="res://.godot/imported/Junkyard Brute.png-ad3d0ed22d9a3a603162b8796634f59c.ctex"
+path="res://.godot/imported/Junkyard Brute.png-035ee67810ef9408add2c9401d5903d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Junkyard Brute.png"
-dest_files=["res://.godot/imported/Junkyard Brute.png-ad3d0ed22d9a3a603162b8796634f59c.ctex"]
+source_file="res://TELT/Assets/Monsters/Junkyard Brute.png"
+dest_files=["res://.godot/imported/Junkyard Brute.png-035ee67810ef9408add2c9401d5903d3.ctex"]
 
 [params]
 

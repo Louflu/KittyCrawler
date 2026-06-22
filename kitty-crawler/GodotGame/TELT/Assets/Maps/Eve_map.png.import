@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dt7feea78hali"
-path="res://.godot/imported/Eve_map.png-18b92e57bd0625698d40cc3624bfbf52.ctex"
+path="res://.godot/imported/Eve_map.png-504d71e13d2e368704ea69ba44558991.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Maps/Eve_map.png"
-dest_files=["res://.godot/imported/Eve_map.png-18b92e57bd0625698d40cc3624bfbf52.ctex"]
+source_file="res://TELT/Assets/Maps/Eve_map.png"
+dest_files=["res://.godot/imported/Eve_map.png-504d71e13d2e368704ea69ba44558991.ctex"]
 
 [params]
 

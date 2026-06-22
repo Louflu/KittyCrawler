@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceaa8g58nyk0u"
-path="res://.godot/imported/Chaos Imp.png-9cfb71aaa9d81cf6a14a06addc1a6103.ctex"
+path="res://.godot/imported/Chaos Imp.png-7bb3885663f4efcb7a38fbf0ed42ffec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Chaos Imp.png"
-dest_files=["res://.godot/imported/Chaos Imp.png-9cfb71aaa9d81cf6a14a06addc1a6103.ctex"]
+source_file="res://TELT/Assets/Monsters/Chaos Imp.png"
+dest_files=["res://.godot/imported/Chaos Imp.png-7bb3885663f4efcb7a38fbf0ed42ffec.ctex"]
 
 [params]
 

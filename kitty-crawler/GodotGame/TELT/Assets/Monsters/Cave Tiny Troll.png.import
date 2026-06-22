@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6h0edrm7m5hh"
-path="res://.godot/imported/Cave Tiny Troll.png-9294a8f0ec9a4621d0ec7d134a4f2280.ctex"
+path="res://.godot/imported/Cave Tiny Troll.png-38dc3d5ee0a2726e4757ae81d561b82d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Cave Tiny Troll.png"
-dest_files=["res://.godot/imported/Cave Tiny Troll.png-9294a8f0ec9a4621d0ec7d134a4f2280.ctex"]
+source_file="res://TELT/Assets/Monsters/Cave Tiny Troll.png"
+dest_files=["res://.godot/imported/Cave Tiny Troll.png-38dc3d5ee0a2726e4757ae81d561b82d.ctex"]
 
 [params]
 

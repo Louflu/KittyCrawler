@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rgmclx1k0seb"
-path="res://.godot/imported/Clockwork Imp.png-2841ddfc21aeedc300dd28846ccd659c.ctex"
+path="res://.godot/imported/Clockwork Imp.png-2544ea9dab3963ea185af02b67459a02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Clockwork Imp.png"
-dest_files=["res://.godot/imported/Clockwork Imp.png-2841ddfc21aeedc300dd28846ccd659c.ctex"]
+source_file="res://TELT/Assets/Monsters/Clockwork Imp.png"
+dest_files=["res://.godot/imported/Clockwork Imp.png-2544ea9dab3963ea185af02b67459a02.ctex"]
 
 [params]
 

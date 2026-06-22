@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rhhr37ihq2fg"
-path="res://.godot/imported/Dust Explosioniate.png-8cd2d36dec01278db3785efcc630cacd.ctex"
+path="res://.godot/imported/Dust Explosioniate.png-749db4f87d4d4aa49174c6c300776423.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Dust Explosioniate.png"
-dest_files=["res://.godot/imported/Dust Explosioniate.png-8cd2d36dec01278db3785efcc630cacd.ctex"]
+source_file="res://TELT/Assets/Monsters/Dust Explosioniate.png"
+dest_files=["res://.godot/imported/Dust Explosioniate.png-749db4f87d4d4aa49174c6c300776423.ctex"]
 
 [params]
 

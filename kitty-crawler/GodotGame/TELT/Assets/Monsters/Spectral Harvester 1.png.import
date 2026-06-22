@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bushf0fvhjrk5"
-path="res://.godot/imported/Spectral Harvester 1.png-48a62bae4287aeacb0e36c34b3771fce.ctex"
+path="res://.godot/imported/Spectral Harvester 1.png-2dd08731f8d08a4bba233d5a8c1d4ccf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TELT/Tilesets/Monsters/Spectral Harvester 1.png"
-dest_files=["res://.godot/imported/Spectral Harvester 1.png-48a62bae4287aeacb0e36c34b3771fce.ctex"]
+source_file="res://TELT/Assets/Monsters/Spectral Harvester 1.png"
+dest_files=["res://.godot/imported/Spectral Harvester 1.png-2dd08731f8d08a4bba233d5a8c1d4ccf.ctex"]
 
 [params]
 
