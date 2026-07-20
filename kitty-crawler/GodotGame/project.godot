@@ -12,7 +12,7 @@ config_version=5
 
 config/name="KittyCrawler"
 run/main_scene="uid://8uyis3nubmb5"
-config/features=PackedStringArray("4.6", "C#", "Forward Plus")
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
 run/max_fps=60
 config/icon="uid://my3iqjl1g0lg"
 
@@ -94,10 +94,6 @@ escape={
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194305,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
 ]
 }
-
-[internationalization]
-
-locale/translations_pot_files=PackedStringArray("res://Levels/dungeon_floor_1/dialog/mainbattle.dialogue", "res://Levels/dungeon_floor_1/dialog/start.dialogue", "res://Levels/Dungeon_floor_2/dialog/Boss/Croxy.dialogue", "res://Levels/Dungeon_floor_2/dialog/Boss/Eve.dialogue", "res://Levels/Dungeon_floor_2/dialog/Boss/Hilda.dialogue", "res://Levels/Dungeon_floor_2/dialog/Boss/Mio.dialogue", "res://Levels/Dungeon_floor_2/dialog/Boss/Skester.dialogue", "res://Levels/Dungeon_floor_2/dialog/NPC/Skara.dialogue", "res://Levels/Dungeon_floor_2/dialog/NPC/Skomas.dialogue", "res://Levels/Dungeon_floor_2/dialog/NPC/Skrolf.dialogue", "res://Levels/Dungeon_floor_2/dialog/NPC/Skyvar.dialogue", "res://Levels/Dungeon_floor_2/dialog/Go_away.dialogue", "res://Levels/Dungeon_floor_2/scenes/Levels/MimicPuzzle.dialogue")
 
 [physics]
 
