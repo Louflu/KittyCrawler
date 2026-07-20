@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://lmnp1npwcldd"]
+
+[ext_resource type="Script" uid="uid://78nbvtr1gds3" path="res://scenes/Menus/MainMenu.cs" id="1_i21gk"]
+
+[node name="MainMenu" type="Control" unique_id=1102980935]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i21gk")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=844989413]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0, 0, 0, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1128468787]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1133390680]
+layout_mode = 2
+
+[node name="NewGame" type="Button" parent="MarginContainer/VBoxContainer" unique_id=2097463871]
+layout_mode = 2
+text = "New Game"
+
+[node name="DeckEditor" type="Button" parent="MarginContainer/VBoxContainer" unique_id=2025056832]
+layout_mode = 2
+text = "Deck Editor"
+
+[node name="Tutorial" type="Button" parent="MarginContainer/VBoxContainer" unique_id=807453537]
+layout_mode = 2
+text = "Tutorial"
+
+[node name="Leaderboard" type="Button" parent="MarginContainer/VBoxContainer" unique_id=2126785120]
+layout_mode = 2
+text = "Leaderbaord"
+
+[node name="Quit" type="Button" parent="MarginContainer/VBoxContainer" unique_id=797124266]
+layout_mode = 2
+text = "Quit"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/NewGame" to="." method="OnNewGamePressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/DeckEditor" to="." method="OnDeckEditorPressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Tutorial" to="." method="OnTutorialPressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Leaderboard" to="." method="OnLeaderboardPressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Quit" to="." method="OnQuitPressed"]

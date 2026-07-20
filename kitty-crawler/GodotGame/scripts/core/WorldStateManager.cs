@@ -34,6 +34,8 @@ public partial class WorldStateManager : Node
 
     public float TimeSeconds { get; set; }
 
+    public bool DeckHasChanged { get; set; } = false;
+
     public override void _Ready()
 	{
         Instance = this;
