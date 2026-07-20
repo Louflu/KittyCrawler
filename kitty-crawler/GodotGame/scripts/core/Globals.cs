@@ -8,6 +8,7 @@ namespace Game.Core
     public partial class Globals : Node
     {
         public static Globals Instance { get; private set; }
+        WorldStateManager _worldStateManager;
 
         [ExportCategory("Gameplay")] [Export] public int GRID_SIZE = 16;
 
@@ -50,15 +51,23 @@ namespace Game.Core
 
         public static void InitializeStartingCards()
         {
-            PlayerData.ResetForNewGame();
+            if (WorldStateManager.Instance?.DeckHasChanged == true)
+            {
+                // sett til siste lagrede deck
+            }
 
-            foreach (var card in StartDeck)
-                PlayerData.AddCardToInventory(card);
+            else
+            {
+                PlayerData.ResetForNewGame();
 
-            foreach (var card in StartInventory)
-                PlayerData.AddCardToInventory(card);
+                foreach (var card in StartDeck)
+                    PlayerData.AddCardToInventory(card);
 
-            PlayerData.SaveDeck(StartDeck);
+                foreach (var card in StartInventory)
+                    PlayerData.AddCardToInventory(card);
+
+                PlayerData.SaveDeck(StartDeck);
+            }
         }
     }
 }
