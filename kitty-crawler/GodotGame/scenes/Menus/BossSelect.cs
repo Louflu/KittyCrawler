@@ -35,17 +35,7 @@ public partial class BossSelect : Control
         button.MouseExited += () =>
         {
             UnhoverButton(button);
-        }; button.PivotOffset = button.Size / 2;
-
-        button.MouseEntered += () =>
-        {
-            HoverButton(button);
-        };
-
-        button.MouseExited += () =>
-        {
-            UnhoverButton(button);
-        };
+        }; 
     }
 
     private void HoverButton(TextureButton button)
