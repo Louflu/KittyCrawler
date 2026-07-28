@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://bybf5wjto20gb"]
 
-[node name="DeckEditor" type="Node2D" unique_id=1869544054]
+[node name="DeckEditor" type="Control" unique_id=1927394326]
+layout_mode = 3
+anchors_preset = 0
