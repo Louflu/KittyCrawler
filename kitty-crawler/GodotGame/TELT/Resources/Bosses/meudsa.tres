@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="BossData" format=3 uid="uid://bn5ubktaq57h8"]
+
+[ext_resource type="Script" uid="uid://bic8u8tbeisc8" path="res://TELT/Scripts/Cards/CardData.cs" id="1_nieds"]
+[ext_resource type="Resource" uid="uid://bbjpsi1og3lje" path="res://TELT/Resources/Cards/Common_Bat.tres" id="2_ii5xt"]
+[ext_resource type="Resource" uid="uid://bvg7uchylhl30" path="res://TELT/Resources/Cards/Common_Elemental.tres" id="3_jd1im"]
+[ext_resource type="Resource" uid="uid://dk8hy7bni03c7" path="res://TELT/Resources/Cards/Common_Goblin.tres" id="4_8y2ul"]
+[ext_resource type="Resource" uid="uid://c0ybu1oovtg11" path="res://TELT/Resources/Cards/Common_Imp.tres" id="5_imt26"]
+[ext_resource type="Resource" uid="uid://q7gwi26susg6" path="res://TELT/Resources/Cards/Common_Snake.tres" id="6_3tl3i"]
+[ext_resource type="Resource" uid="uid://bsdrdrn4m2uig" path="res://TELT/Resources/Cards/Common_Spider.tres" id="7_p2hty"]
+[ext_resource type="Resource" uid="uid://cru35mgvv1jxr" path="res://TELT/Resources/Cards/Uncommon_EyeofHope.tres" id="8_h7f5q"]
+[ext_resource type="Resource" uid="uid://brxvt3x7w7m6p" path="res://TELT/Resources/Cards/Uncommon_Sludge.tres" id="9_uutj6"]
+[ext_resource type="Resource" uid="uid://cw7qgyiug3og8" path="res://TELT/Resources/Cards/Rare_PuzzleMaster.tres" id="10_vl48m"]
+[ext_resource type="Resource" uid="uid://bgm25fnye48j0" path="res://TELT/Resources/Cards/Uncommon_EyeofDespair.tres" id="11_2xtd4"]
+[ext_resource type="Resource" uid="uid://dnvgd3c1a4k0t" path="res://TELT/Resources/Cards/Uncommon_Demon.tres" id="12_2b0o6"]
+[ext_resource type="Resource" uid="uid://dlghulvg0oxjr" path="res://TELT/Resources/Cards/Uncommon_Drake.tres" id="13_xre26"]
+[ext_resource type="Resource" uid="uid://b0blolq32skeh" path="res://TELT/Resources/Cards/Uncommon_Druid.tres" id="14_xchkw"]
+[ext_resource type="Resource" uid="uid://dwbxempbuv8fd" path="res://TELT/Resources/Cards/Uncommon_Dryad.tres" id="15_dfkt4"]
+[ext_resource type="Script" uid="uid://cnaj1wf4hjc4j" path="res://TELT/Resources/BossData.cs" id="16_rjqfc"]
+
+[resource]
+script = ExtResource("16_rjqfc")
+BossName = "Medusa"
+NpcId = "medusa"
+Deck = Array[ExtResource("1_nieds")]([ExtResource("2_ii5xt"), ExtResource("2_ii5xt"), ExtResource("2_ii5xt"), ExtResource("2_ii5xt"), ExtResource("3_jd1im"), ExtResource("3_jd1im"), ExtResource("4_8y2ul"), ExtResource("4_8y2ul"), ExtResource("5_imt26"), ExtResource("6_3tl3i"), ExtResource("6_3tl3i"), ExtResource("7_p2hty"), ExtResource("8_h7f5q"), ExtResource("8_h7f5q"), ExtResource("8_h7f5q"), ExtResource("8_h7f5q"), ExtResource("9_uutj6"), ExtResource("10_vl48m"), ExtResource("11_2xtd4"), ExtResource("11_2xtd4"), ExtResource("12_2b0o6"), ExtResource("13_xre26"), ExtResource("14_xchkw"), ExtResource("15_dfkt4"), ExtResource("11_2xtd4")])
+metadata/_custom_type_script = "uid://cnaj1wf4hjc4j"
