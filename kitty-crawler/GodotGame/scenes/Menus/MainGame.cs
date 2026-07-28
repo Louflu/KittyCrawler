@@ -5,6 +5,7 @@ using System;
 public partial class MainGame : Node2D
 {
     private MainMenu mainMenu;
+    private BossSelect bossSelect;
     private LevelTransition _levelTransition;
     // private GameTimerManager _gameTimer;
     // private PauseMenu pauseMenu;
@@ -16,11 +17,14 @@ public partial class MainGame : Node2D
     {
         mainMenu = GetNodeOrNull<MainMenu>("UI/MainMenu");
         _levelTransition = GetNodeOrNull<LevelTransition>("UI/LevelTransition");
-       
+        bossSelect = GetNodeOrNull<BossSelect>("UI/BossSelect");
+
         mainMenu.StartGameRequested += StartGame;
         mainMenu.LeaderboardRequested += Leaderboard;
         mainMenu.DeckEditorRequested += DeckEditor;
+        bossSelect.BossSelected += OnBossSelected;
 
+        bossSelect.Hide();
         mainMenu.Show();
 
         // Må implementeres i Telt ved spillerunde slutt -> en knapp for retur til main menu
@@ -38,19 +42,17 @@ public partial class MainGame : Node2D
         GD.Print("Starting game. New game: " + newGame);
 
         mainMenu?.Hide();
-
+        bossSelect?.Show();
         if (newGame)
         {
             WorldStateManager.Instance.GameEnded = false;
 
             WorldStateManager.Instance.WorldStateReset();
 
-            Globals.InitializeStartingCards();
+            Globals.InitializeStartingCards(); // or set deck from player edited deck 
 
-            _levelTransition.ScenePath = GameScenePath;
-            _levelTransition.TriggerTransition();
 
-            GD.Print("Starting new Telt Game");
+            //GD.Print("Starting new Telt Game");
             // ikke implementert enda
             // _gameTimer.StartTimer();
         }
@@ -72,5 +74,10 @@ public partial class MainGame : Node2D
     // TUTORIAL
     public void StartTutorialScene() { }
 
+    public void OnBossSelected(string bossName)
+    {
+        _levelTransition.ScenePath = GameScenePath;
+        _levelTransition.TriggerTransition();
+    }
 
 }
