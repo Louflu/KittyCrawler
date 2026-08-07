@@ -1,5 +1,8 @@
 using Godot;
+using KittyCrawler.TELT;
 using System;
+using System.Resources;
+using static System.Net.Mime.MediaTypeNames;
 
 public partial class BossSelect : Control
 {
@@ -59,12 +62,28 @@ public partial class BossSelect : Control
     public void OnMioButtonPressed()
     {
         GD.Print("Mio button pressed");
+
+        TeltBattleConfig.Instance.CurrentBoss = GD.Load<BossData>("res://TELT/Resources/Bosses/mio.tres");
         EmitSignal("BossSelected", "Mio");
     }
 
     public void OnMedusaButtonPressed()
     {
         GD.Print("Medusa button pressed");
+        
+        try
+        {
+            BossData bossResource = GD.Load<BossData>("res://TELT/Resources/Bosses/medusa.tres");
+
+            TeltBattleConfig.Instance.CurrentBoss = bossResource;
+           
+        }
+        catch (Exception ex)
+        {
+            GD.PrintErr($"Error loading Medusa boss resource: {ex.Message}");
+            return;
+        }
+
         EmitSignal("BossSelected", "Medusa");
     }
 }
