@@ -12,34 +12,10 @@ public partial class PlayerData : Node
     private List<CardData> _hand = new();
     private List<CardData> _discardPile = new();
 
-
     // ── Deck ──────────────────────────────────────────────────────────
     public void SetDeck(List<CardData> deck)
     {
         _deck = new List<CardData>(deck);
-    }
-
-    private static List<string> _ownedCards = new();
-    private static List<string> _savedDeck = new();
-
-    public static List<string> OwnedCards => new(_ownedCards);
-    public static List<string> SavedDeck => new(_savedDeck);
-
-    public static void AddCardToInventory(string cardId)
-    {
-        _ownedCards.Add(cardId);
-        SaveScore();
-    }
-
-    public static void SaveDeck(List<string> deck)
-    {
-        _savedDeck = new List<string>(deck);
-        SaveScore();
-    }
-
-    public static bool HasCardInInventory(string cardId)
-    {
-        return _ownedCards.Contains(cardId);
     }
 
     public void ShuffleDeck()
@@ -51,16 +27,6 @@ public partial class PlayerData : Node
             int j = (int)(rng.Randi() % (uint)(i + 1));
             (_deck[i], _deck[j]) = (_deck[j], _deck[i]);
         }
-    }
-
-    public static void ResetForNewGame()
-    {
-        _ownedCards.Clear();
-        _savedDeck.Clear();
-        _defeatedNpcs.Clear();
-        _receivedCards.Clear();
-        _totalDamageDealt = 0;
-        SaveScore();
     }
 
     // ── Trekking ──────────────────────────────────────────────────────
@@ -78,14 +44,14 @@ public partial class PlayerData : Node
         _deck.RemoveAt(0);
         _hand.Add(card);
         LastDrawnCard = card;
-        _newlyDrawnCards.Add(card); // ← legg til
+        _newlyDrawnCards.Add(card);
         return true;
     }
 
     public void ClearLastDrawnCard()
     {
         LastDrawnCard = null;
-        _newlyDrawnCards.Clear(); // ← tøm listen
+        _newlyDrawnCards.Clear();
     }
 
     public void DrawCards(int amount)
@@ -123,8 +89,8 @@ public partial class PlayerData : Node
         foreach (var card in cardsFromBattlemap)
         {
             card.ResetCurrentDamage();
-            card.IsPoisoned = false; // ← legg til
-            card.IsEnraged = false; // ← legg til
+            card.IsPoisoned = false;
+            card.IsEnraged = false;
         }
 
         _discardPile.AddRange(cardsFromBattlemap);
@@ -146,97 +112,79 @@ public partial class PlayerData : Node
     public int DeckCount => _deck.Count;
     public List<CardData> GetDiscardPile() => new(_discardPile);
 
-    // ── Score ──────────────────────────────────────────────────────────
-    private static int _totalDamageDealt = 0;
-    private const string SavePath = "user://telt_score.json";
 
-    // dersom loss/draw, reset score
-    public static void ResetSessionDamage()
+    // ══════════════════════════════════════════════════════════════════
+    //  Progresjon — delegerer all lagring til WorldStateManager
+    // ══════════════════════════════════════════════════════════════════
+    private static WorldStateManager World => WorldStateManager.Instance;
+
+    public static List<string> OwnedCards =>
+        World != null ? new List<string>(World.CardsOwned) : new();
+
+    public static List<string> SavedDeck =>
+        World != null ? new List<string>(World.Deck) : new();
+
+    public static int TotalDamageDealt => World?.Score ?? 0;
+
+    // ── Kortsamling ───────────────────────────────────────────────────
+    public static void AddCardToInventory(string cardPath)
     {
-        _totalDamageDealt = 0;
+        if (World == null) { GD.PrintErr("[PlayerData] WorldStateManager mangler."); return; }
+        World.OnCardAdded(cardPath);
     }
 
-    public static int TotalDamageDealt
+    public static bool HasCardInInventory(string cardPath) =>
+        World?.CardsOwned.Contains(cardPath) ?? false;
+
+    // ── Deck ──────────────────────────────────────────────────────────
+    public static void SaveDeck(List<string> deck)
     {
-        get => _totalDamageDealt;
-        private set => _totalDamageDealt = value;
+        if (World == null) { GD.PrintErr("[PlayerData] WorldStateManager mangler."); return; }
+        World.Deck = new Godot.Collections.Array<string>(deck);
+        World.DeckHasChanged = true;
+        World.SaveGame();
     }
 
-    private static HashSet<string> _defeatedNpcs = new();
-
-    public static bool HasDefeatedNpc(string npcId)
-    {
-        return _defeatedNpcs.Contains(npcId);
-    }
+    // ── NPC-progresjon ────────────────────────────────────────────────
+    public static bool HasDefeatedNpc(string npcId) =>
+        World?.BossesWon.Contains(npcId) ?? false;
 
     public static void DefeatNpc(string npcId, int damageDealt)
     {
-        if (_defeatedNpcs.Contains(npcId)) return; // Allerede beseiret
+        if (World == null) return;
+        if (World.BossesWon.Contains(npcId)) return;
 
-        _defeatedNpcs.Add(npcId);
-        AddDamageDealt(damageDealt);
-        SaveScore();
+        World.OnNpcDefeated(npcId);
+        World.OnScoreUpdated(damageDealt);
     }
 
-    public static void AddDamageDealt(int amount)
-    {
-        _totalDamageDealt += amount;
-        SaveScore();
-    }
+    public static void AddDamageDealt(int amount) => World?.OnScoreUpdated(amount);
 
-    private static HashSet<string> _receivedCards = new();
-
-    public static bool HasReceivedCard(string npcId)
-    {
-        return _receivedCards.Contains(npcId);
-    }
+    // ── Belønningskort ────────────────────────────────────────────────
+    public static bool HasReceivedCard(string npcId) =>
+        World?.ReceivedCards.Contains(npcId) ?? false;
 
     public static void GiveRewardCard(string npcId, string cardPath)
     {
-        if (_receivedCards.Contains(npcId)) return;
-        _receivedCards.Add(npcId);
-        if (!string.IsNullOrEmpty(cardPath))
-            _ownedCards.Add(cardPath);
-        SaveScore();
+        if (World == null) return;
+        if (World.ReceivedCards.Contains(npcId)) return;
+
+        World.ReceivedCards.Add(npcId);
+        if (!string.IsNullOrEmpty(cardPath) && !World.CardsOwned.Contains(cardPath))
+            World.CardsOwned.Add(cardPath);
+
+        World.SaveGame();
     }
 
-    public static void SaveScore()
+    // ── Reset ─────────────────────────────────────────────────────────
+    public static void ResetSessionDamage()
     {
-        using var file = FileAccess.Open(SavePath, FileAccess.ModeFlags.Write);
-        var data = new Godot.Collections.Dictionary
-        {
-            ["damageDealt"] = _totalDamageDealt,
-            ["defeatedNpcs"] = string.Join(",", _defeatedNpcs),
-            ["receivedCards"] = string.Join(",", _receivedCards),
-            ["ownedCards"] = string.Join(",", _ownedCards),       // ← legg til
-            ["savedDeck"] = string.Join(",", _savedDeck)          // ← legg til
-        };
-        file.StoreString(Json.Stringify(data));
+        if (World != null) World.Score = 0;
     }
 
-    public static void LoadScore()
+    public static void ResetForNewGame()
     {
-        if (!FileAccess.FileExists(SavePath)) return;
-        using var file = FileAccess.Open(SavePath, FileAccess.ModeFlags.Read);
-        var json = file.GetAsText();
-        var data = Json.ParseString(json).AsGodotDictionary();
-        _totalDamageDealt = data["damageDealt"].AsInt32();
-
-        if (data.ContainsKey("defeatedNpcs") && data["defeatedNpcs"].AsString() != "")
-            foreach (var npc in data["defeatedNpcs"].AsString().Split(","))
-                _defeatedNpcs.Add(npc);
-
-        if (data.ContainsKey("receivedCards") && data["receivedCards"].AsString() != "")
-            foreach (var card in data["receivedCards"].AsString().Split(","))
-                _receivedCards.Add(card);
-
-        if (data.ContainsKey("ownedCards") && data["ownedCards"].AsString() != "") // ← legg til
-            foreach (var card in data["ownedCards"].AsString().Split(","))
-                _ownedCards.Add(card);
-
-        if (data.ContainsKey("savedDeck") && data["savedDeck"].AsString() != "") // ← legg til
-            foreach (var card in data["savedDeck"].AsString().Split(","))
-                _savedDeck.Add(card);
+        World?.WorldStateReset();
+        World?.SaveGame();
     }
-
 }

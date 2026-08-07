@@ -25,6 +25,8 @@ public partial class WorldStateManager : Node
 
     public Array<string> CardsOwned { get; set; } = new Array<string>();
 
+    public Array<string> ReceivedCards { get; set; } = new Array<string>();
+
     public Array<string> Deck { get; set; } = new Array<string>();
 
     public Array<string> BossesWon { get; set; } = new Array<string>();
@@ -54,6 +56,7 @@ public partial class WorldStateManager : Node
         {
             { "playerPosition", new Dictionary { { "x", PlayerPosition.X }, { "y", PlayerPosition.Y } } },
             { "cardsOwned", CardsOwned },
+            { "receivedCards", ReceivedCards },
             { "deck", Deck },
             { "bossesWon", BossesWon },
             { "score", Score },
@@ -72,16 +75,34 @@ public partial class WorldStateManager : Node
         if (!FileAccess.FileExists(savePath)) return;
 
         using var file = FileAccess.Open(savePath, FileAccess.ModeFlags.Read);
-        var json = file.GetAsText();
+        var data = Json.ParseString(file.GetAsText()).AsGodotDictionary();
 
-        var data = Json.ParseString(json).AsGodotDictionary();
-
-        Score = (int)data["score"];
-        Health = (int)data["health"];
+        Score       = (int)data["score"];
+        Health      = (int)data["health"];
         TimeSeconds = (float)data["timeSeconds"];
-        UserName = (string)data["userName"];
-        GD.Print($"Loaded save: score={Score}, time={TimeSeconds}");
+        UserName    = (string)data["userName"];
 
+        if (data.ContainsKey("playerPosition"))
+        {
+            var pos = data["playerPosition"].AsGodotDictionary();
+            PlayerPosition = new Vector2((float)pos["x"], (float)pos["y"]);
+        }
+
+        CardsOwned    = LoadArray(data, "cardsOwned");
+        Deck          = LoadArray(data, "deck");
+        BossesWon     = LoadArray(data, "bossesWon");
+        ReceivedCards = LoadArray(data, "receivedCards");
+
+        GD.Print($"Loaded save: score={Score}, deck={Deck.Count}, owned={CardsOwned.Count}");
+    }
+
+    private Array<string> LoadArray(Dictionary data, string key)
+    {
+        var result = new Array<string>();
+        if (!data.ContainsKey(key)) return result;
+        foreach (var item in data[key].AsGodotArray())
+            result.Add(item.AsString());
+        return result;
     }
 
 
@@ -172,6 +193,11 @@ public partial class WorldStateManager : Node
         Health = 0;
         TimeSeconds = 0;
         UserName = "";
+        CardsOwned.Clear();
+        ReceivedCards.Clear();
+        Deck.Clear();
+        BossesWon.Clear();
+        DeckHasChanged = false;
     }
 
     public enum GameMode
