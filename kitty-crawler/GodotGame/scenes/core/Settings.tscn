@@ -1,0 +1,127 @@
+[gd_scene format=3 uid="uid://eutdonppr57q"]
+
+[ext_resource type="PackedScene" uid="uid://qauq65bhxoqb" path="res://scenes/core/InputButton.tscn" id="1_ghiao"]
+
+[node name="SettingsMenu" type="Control" unique_id=348929256]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1320646676]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -339.0
+offset_top = -241.0
+offset_right = 337.0
+offset_bottom = 241.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1688348452]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="TabContainer" type="TabContainer" parent="PanelContainer/MarginContainer" unique_id=658646193]
+layout_mode = 2
+current_tab = 1
+
+[node name="AudioSettings" type="TabBar" parent="PanelContainer/MarginContainer/TabContainer" unique_id=2071885337]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings" unique_id=66553071]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -321.0
+offset_top = -212.5
+offset_right = 321.0
+offset_bottom = 212.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer" unique_id=2127817057]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="AudioActionList" type="VBoxContainer" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer" unique_id=1986771021]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1205450798 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button2" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1566889111 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button3" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1833400956 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button4" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=262290976 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button5" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1388008918 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button6" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=240641152 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="KeybindSettings" type="TabBar" parent="PanelContainer/MarginContainer/TabContainer" unique_id=1165623562]
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings" unique_id=880527961]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -328.0
+offset_top = -220.5
+offset_right = 328.0
+offset_bottom = 220.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer" unique_id=831774517]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ActionList" type="VBoxContainer" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer" unique_id=1474918365]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=1039199652 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button2" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=1215190475 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button3" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=558897940 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button4" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=26861032 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button5" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=2007115826 instance=ExtResource("1_ghiao")]
+layout_mode = 2
+
+[node name="Button6" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=555159429 instance=ExtResource("1_ghiao")]
+layout_mode = 2
