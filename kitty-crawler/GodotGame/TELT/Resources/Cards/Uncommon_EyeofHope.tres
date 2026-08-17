@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cru35mgvv1jxr"]
 
-[ext_resource type="Texture2D" uid="uid://m1hnrqg7r17w" path="res://TELT/Tilesets/Eyes_of.png" id="1_ca1tf"]
+[ext_resource type="Texture2D" uid="uid://m1hnrqg7r17w" path="res://TELT/Assets/Cards/Eyes_of.png" id="1_ca1tf"]
 [ext_resource type="Script" uid="uid://bic8u8tbeisc8" path="res://TELT/Scripts/Cards/CardData.cs" id="2_44w63"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d43hk"]

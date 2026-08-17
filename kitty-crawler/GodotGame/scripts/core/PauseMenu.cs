@@ -23,8 +23,7 @@ public partial class PauseMenu : CanvasLayer
     {
         _deckEditorUIButton.Pressed += () =>
         {
-            Visible = false;
-            _deckEditorUI.Open();
+            SceneManager.Instance.ChangeSceneAsync("res://TELT/Scenes/DeckEditorScene.tscn", TransitionType.Generic);
         };
     }
 

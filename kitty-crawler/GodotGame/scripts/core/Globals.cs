@@ -43,8 +43,7 @@ namespace Game.Core
         {
             Instance = this;
             Logger.Info("Loading Globals ...");
-            PlayerData.LoadScore();
-
+            WorldStateManager.Instance.LoadGame();
             if (PlayerData.OwnedCards.Count == 0)
                 InitializeStartingCards();
         }

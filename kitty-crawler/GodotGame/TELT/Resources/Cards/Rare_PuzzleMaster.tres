@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cw7qgyiug3og8"]
 
-[ext_resource type="Texture2D" uid="uid://c6cytayv130fn" path="res://TELT/Tilesets/PuzzleMaster_card.png" id="1_ed1s5"]
+[ext_resource type="Texture2D" uid="uid://c6cytayv130fn" path="res://TELT/Assets/Cards/PuzzleMaster_card.png" id="1_ed1s5"]
 [ext_resource type="Script" uid="uid://bic8u8tbeisc8" path="res://TELT/Scripts/Cards/CardData.cs" id="2_4xk51"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_opmux"]
