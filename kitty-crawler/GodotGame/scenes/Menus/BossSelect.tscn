@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://kjnyhkuyv40p"]
+
+[ext_resource type="Script" uid="uid://b1l4wawpkp8si" path="res://scenes/Menus/BossSelect.cs" id="1_2wnx3"]
+[ext_resource type="Texture2D" uid="uid://cspw0lf52car5" path="res://assets/Characters/BossSprites/mioportraitframed.png" id="1_mpxv1"]
+[ext_resource type="Texture2D" uid="uid://b1efsb0utkqlk" path="res://assets/Characters/BossSprites/medusaportraitframed.png" id="3_g3t6j"]
+
+[node name="BossSelect" type="Control" unique_id=806491210]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_2wnx3")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1670603309]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0, 0, 0, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1098953232]
+layout_mode = 0
+offset_right = 1276.0
+offset_bottom = 718.0
+
+[node name="Label" type="Label" parent="MarginContainer" unique_id=343366121]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 32
+text = "
+
+
+Select the boss you want to battle "
+horizontal_alignment = 1
+uppercase = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=1908349667]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 36
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer" unique_id=279866627]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 20
+
+[node name="Mio" type="TextureButton" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1994117119 groups=["BossButton"]]
+custom_minimum_size = Vector2(256, 256)
+layout_mode = 2
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.0
+texture_normal = ExtResource("1_mpxv1")
+stretch_mode = 0
+
+[node name="MioLabel" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1008439275]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 25
+text = "Mio"
+horizontal_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer" unique_id=309141450]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Medusa" type="TextureButton" parent="MarginContainer/HBoxContainer/VBoxContainer2" unique_id=1742230888 groups=["BossButton"]]
+custom_minimum_size = Vector2(256, 256)
+layout_mode = 2
+size_flags_vertical = 4
+texture_normal = ExtResource("3_g3t6j")
+stretch_mode = 0
+
+[node name="MedusaLabel" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer2" unique_id=1232298700]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Medusa"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/Mio" to="." method="OnMioButtonPressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer2/Medusa" to="." method="OnMedusaButtonPressed"]
