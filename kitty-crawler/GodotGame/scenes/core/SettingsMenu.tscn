@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://eutdonppr57q"]
 
-[ext_resource type="PackedScene" uid="uid://qauq65bhxoqb" path="res://scenes/core/InputButton.tscn" id="1_ghiao"]
+[ext_resource type="Script" uid="uid://d0bbv7vkwed10" path="res://scenes/core/AudioSettings.cs" id="1_ikf0p"]
+[ext_resource type="Script" uid="uid://ctaal0g812y8v" path="res://scenes/core/KeybindSettings.cs" id="2_anxn8"]
 
 [node name="SettingsMenu" type="Control" unique_id=348929256]
 layout_mode = 3
@@ -33,11 +34,11 @@ theme_override_constants/margin_bottom = 8
 
 [node name="TabContainer" type="TabContainer" parent="PanelContainer/MarginContainer" unique_id=658646193]
 layout_mode = 2
-current_tab = 1
+current_tab = 0
 
 [node name="AudioSettings" type="TabBar" parent="PanelContainer/MarginContainer/TabContainer" unique_id=2071885337]
-visible = false
 layout_mode = 2
+script = ExtResource("1_ikf0p")
 metadata/_tab_index = 0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings" unique_id=66553071]
@@ -61,28 +62,11 @@ size_flags_vertical = 3
 [node name="AudioActionList" type="VBoxContainer" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer" unique_id=1986771021]
 layout_mode = 2
 size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="Button" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1205450798 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button2" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1566889111 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button3" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1833400956 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button4" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=262290976 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button5" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=1388008918 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button6" parent="PanelContainer/MarginContainer/TabContainer/AudioSettings/VBoxContainer/ScrollContainer/AudioActionList" unique_id=240641152 instance=ExtResource("1_ghiao")]
-layout_mode = 2
 
 [node name="KeybindSettings" type="TabBar" parent="PanelContainer/MarginContainer/TabContainer" unique_id=1165623562]
+visible = false
 layout_mode = 2
+script = ExtResource("2_anxn8")
 metadata/_tab_index = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings" unique_id=880527961]
@@ -107,21 +91,3 @@ size_flags_vertical = 3
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-
-[node name="Button" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=1039199652 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button2" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=1215190475 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button3" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=558897940 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button4" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=26861032 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button5" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=2007115826 instance=ExtResource("1_ghiao")]
-layout_mode = 2
-
-[node name="Button6" parent="PanelContainer/MarginContainer/TabContainer/KeybindSettings/VBoxContainer/ScrollContainer/ActionList" unique_id=555159429 instance=ExtResource("1_ghiao")]
-layout_mode = 2
