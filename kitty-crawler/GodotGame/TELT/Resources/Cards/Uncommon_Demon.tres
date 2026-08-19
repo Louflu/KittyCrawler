@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dnvgd3c1a4k0t"]
 
-[ext_resource type="Texture2D" uid="uid://rrpof80cap5k" path="res://TELT/Tilesets/AngelDemon.png" id="1_uujh7"]
+[ext_resource type="Texture2D" uid="uid://rrpof80cap5k" path="res://TELT/Assets/Cards/AngelDemon.png" id="1_uujh7"]
 [ext_resource type="Script" uid="uid://bic8u8tbeisc8" path="res://TELT/Scripts/Cards/CardData.cs" id="2_rdc6d"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mand4"]

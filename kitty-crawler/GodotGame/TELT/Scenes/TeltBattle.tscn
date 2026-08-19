@@ -1,20 +1,20 @@
 [gd_scene format=3 uid="uid://8uyis3nubmb5"]
 
 [ext_resource type="Script" uid="uid://b5yroq2as0v6d" path="res://TELT/Scripts/Battle/TeltBattle.cs" id="1_fqpg2"]
-[ext_resource type="Texture2D" uid="uid://dyp0jvxtc5fuw" path="res://TELT/Tilesets/Cardbacks/TeltBackside.png" id="2_1gpw6"]
+[ext_resource type="Texture2D" uid="uid://dyp0jvxtc5fuw" path="res://TELT/Assets/Other/TeltBackside.png" id="2_1gpw6"]
 [ext_resource type="PackedScene" uid="uid://b7wu35ib6ov37" path="res://TELT/Scenes/CardVisual.tscn" id="2_nncip"]
 [ext_resource type="Script" uid="uid://6j0uafk3lfn" path="res://TELT/Scripts/Battle/BattleMap.cs" id="3_lvtoq"]
 [ext_resource type="Script" uid="uid://cqg18kadl7y4b" path="res://TELT/Scripts/Battle/GameManager.cs" id="3_nncip"]
-[ext_resource type="Texture2D" uid="uid://2ag8sjbncfh8" path="res://TELT/Tilesets/Maps/Basic_map_new.png" id="4_1gpw6"]
+[ext_resource type="Texture2D" uid="uid://2ag8sjbncfh8" path="res://TELT/Assets/Maps/Basic_map_new.png" id="4_1gpw6"]
 [ext_resource type="Script" uid="uid://v4lg6hakjai6" path="res://TELT/Scripts/Player/PlayerData.cs" id="4_cwi3j"]
-[ext_resource type="Texture2D" uid="uid://cq7lhxduggqjd" path="res://TELT/Tilesets/Maps/Croxy_map.png" id="4_do6nv"]
-[ext_resource type="Texture2D" uid="uid://dt7feea78hali" path="res://TELT/Tilesets/Maps/Eve_map.png" id="5_1gpw6"]
+[ext_resource type="Texture2D" uid="uid://cq7lhxduggqjd" path="res://TELT/Assets/Maps/Croxy_map.png" id="4_do6nv"]
+[ext_resource type="Texture2D" uid="uid://dt7feea78hali" path="res://TELT/Assets/Maps/Eve_map.png" id="5_1gpw6"]
 [ext_resource type="Script" uid="uid://imvucr5hlgbd" path="res://scripts/DiceRoll.cs" id="5_lvtoq"]
 [ext_resource type="Script" uid="uid://b78ltfwb22ld2" path="res://TELT/Scripts/Enemy/EnemyAI.cs" id="5_pjqik"]
 [ext_resource type="Script" uid="uid://cm4s18t7lpvvx" path="res://TELT/Scripts/Battle/AbilityResolver.cs" id="6_cwi3j"]
-[ext_resource type="Texture2D" uid="uid://c5qooy84y0ara" path="res://TELT/Tilesets/Maps/Hilda_map.png" id="6_upegj"]
-[ext_resource type="Texture2D" uid="uid://d3yhxhvciry63" path="res://TELT/Tilesets/Maps/Mio_map.png" id="7_3rd10"]
-[ext_resource type="Texture2D" uid="uid://c5blo1wr704kg" path="res://TELT/Tilesets/Maps/Skester_map.png" id="8_2fdk5"]
+[ext_resource type="Texture2D" uid="uid://c5qooy84y0ara" path="res://TELT/Assets/Maps/Hilda_map.png" id="6_upegj"]
+[ext_resource type="Texture2D" uid="uid://d3yhxhvciry63" path="res://TELT/Assets/Maps/Mio_map.png" id="7_3rd10"]
+[ext_resource type="Texture2D" uid="uid://c5blo1wr704kg" path="res://TELT/Assets/Maps/Skester_map.png" id="8_2fdk5"]
 [ext_resource type="FontFile" uid="uid://b0b5y1ystn251" path="res://assets/Fonts/Pixelmax-Regular.otf" id="9_do6nv"]
 [ext_resource type="PackedScene" uid="uid://cnd1erk0wljls" path="res://scenes/dice_visual.tscn" id="11_upegj"]
 
@@ -966,22 +966,22 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="RematchButton" type="Button" parent="GameOverScreen" unique_id=1779116948]
-offset_left = 504.0
-offset_top = 490.0
-offset_right = 774.0
-offset_bottom = 584.0
+offset_left = 218.0
+offset_top = 555.0
+offset_right = 488.0
+offset_bottom = 649.0
 theme_override_fonts/font = ExtResource("9_do6nv")
 theme_override_font_sizes/font_size = 41
 theme_override_styles/normal = SubResource("StyleBoxFlat_8xrjg")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_4b55q")
 theme_override_styles/hover = SubResource("StyleBoxFlat_3omoa")
-text = "Rematch?"
+text = "Main Menu"
 
 [node name="ContinueButton" type="Button" parent="GameOverScreen" unique_id=1172741071]
-offset_left = 504.0
-offset_top = 490.0
-offset_right = 774.0
-offset_bottom = 584.0
+offset_left = 836.0
+offset_top = 555.0
+offset_right = 1106.0
+offset_bottom = 649.0
 theme_override_fonts/font = ExtResource("9_do6nv")
 theme_override_font_sizes/font_size = 41
 theme_override_styles/normal = SubResource("StyleBoxFlat_1aukk")

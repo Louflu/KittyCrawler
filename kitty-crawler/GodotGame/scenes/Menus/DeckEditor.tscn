@@ -1,5 +1,57 @@
 [gd_scene format=3 uid="uid://bybf5wjto20gb"]
 
-[node name="DeckEditor" type="Control" unique_id=1927394326]
-layout_mode = 3
-anchors_preset = 0
+[ext_resource type="Script" uid="uid://bg0k2nb4sffy6" path="res://scripts/UI/DeckEditorScene.cs" id="1_2ssng"]
+
+[node name="DeckEditor" type="Node2D" unique_id=1869544054 node_paths=PackedStringArray("_deckGrid", "_inventoryGrid", "_deckCountLabel", "_saveDeckButton", "_closeButton", "_previewContainer", "_feedbackLabel")]
+script = ExtResource("1_2ssng")
+_deckGrid = NodePath("HBoxContainer/DeckPanel/DeckGrid")
+_inventoryGrid = NodePath("HBoxContainer/InventoryPanel/InventoryGrid")
+_deckCountLabel = NodePath("HBoxContainer/DeckPanel/DeckCountLabel")
+_saveDeckButton = NodePath("SaceDeckButton")
+_closeButton = NodePath("CloseButton")
+_previewContainer = NodePath("HBoxContainer/PreviewContainer")
+_feedbackLabel = NodePath("FeedBackLabel")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1133724604]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1971989912]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DeckPanel" type="Panel" parent="HBoxContainer" unique_id=892942806]
+layout_mode = 2
+
+[node name="DeckCountLabel" type="Label" parent="HBoxContainer/DeckPanel" unique_id=320874941]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 17.0
+
+[node name="DeckGrid" type="GridContainer" parent="HBoxContainer/DeckPanel" unique_id=680012076]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PreviewContainer" type="Control" parent="HBoxContainer" unique_id=276191363]
+layout_mode = 2
+
+[node name="InventoryPanel" type="Panel" parent="HBoxContainer" unique_id=786205543]
+layout_mode = 2
+
+[node name="InventoryGrid" type="GridContainer" parent="HBoxContainer/InventoryPanel" unique_id=1089326330]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="FeedBackLabel" type="Label" parent="." unique_id=1732345365]
+offset_right = 40.0
+offset_bottom = 17.0
+
+[node name="SaceDeckButton" type="Button" parent="." unique_id=88267668]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="CloseButton" type="Button" parent="." unique_id=988510887]
+offset_right = 8.0
+offset_bottom = 8.0
