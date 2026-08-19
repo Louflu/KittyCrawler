@@ -62,7 +62,11 @@ public partial class MainGame : Node2D
             // _gameTimer.ContinueTimer();
         }
     }
+    // SETTINGS
+    public void OnSettingsPressed()
+    {
 
+    }
     // LEADERBOARD
     public void Leaderboard()
     {

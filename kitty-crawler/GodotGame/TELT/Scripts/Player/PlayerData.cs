@@ -5,6 +5,8 @@ namespace KittyCrawler.TELT;
 
 public partial class PlayerData : Node
 {
+
+    // -- TELT Player Data -------------------------------------------------
     public string PlayerName { get; set; } = "Player";
     public int TotalDamageReceived { get; set; } = 0;
 

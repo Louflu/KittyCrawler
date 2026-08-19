@@ -37,6 +37,10 @@ public partial class WorldStateManager : Node
     public float TimeSeconds { get; set; }
 
     public bool DeckHasChanged { get; set; } = false;
+    public int MasterVolume { get; set; } = 100;
+    public int MusicVolume { get; set; } = 100;
+    public int SfxVolume { get; set; } = 100;
+    public int FootstepsVolume { get; set; } = 100;
 
     public override void _Ready()
 	{
@@ -62,7 +66,12 @@ public partial class WorldStateManager : Node
             { "score", Score },
             { "health", Health },
             { "timeSeconds", TimeSeconds },
-            { "userName", UserName }
+            { "userName", UserName },
+            { "masterVolume", MasterVolume },
+            { "musicVolume", MusicVolume },
+            { "sfxVolume", SfxVolume },
+            { "footstepsVolume", FootstepsVolume }
+
         };
 
         file.StoreString(Json.Stringify(data));
@@ -94,6 +103,18 @@ public partial class WorldStateManager : Node
         ReceivedCards = LoadArray(data, "receivedCards");
 
         GD.Print($"Loaded save: score={Score}, deck={Deck.Count}, owned={CardsOwned.Count}");
+
+        if (data.ContainsKey("masterVolume"))
+            MasterVolume = (int)data["masterVolume"];
+
+        if (data.ContainsKey("musicVolume"))
+            MusicVolume = (int)data["musicVolume"];
+
+        if (data.ContainsKey("sfxVolume"))
+            SfxVolume = (int)data["sfxVolume"];
+
+        if (data.ContainsKey("footstepsVolume"))
+            FootstepsVolume = (int)data["footstepsVolume"];
     }
 
     private Array<string> LoadArray(Dictionary data, string key)

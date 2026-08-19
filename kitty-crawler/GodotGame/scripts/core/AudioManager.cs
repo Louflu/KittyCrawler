@@ -1,4 +1,5 @@
 using Godot;
+using KittyCrawler.TELT;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -34,7 +35,8 @@ public partial class AudioManager : Node
     private const float SilentVolumeDb = -40f;
     private bool _isChangingMusic = false;
 
-
+    private int masterVolume = 100;
+    public int MasterVolume => masterVolume;
 
     public override void _Ready()
     {
@@ -48,7 +50,106 @@ public partial class AudioManager : Node
             OnLevelLoaded(currentScene.SceneFilePath);
         }
     }
+    // --- Volume Control ---
+ 
+    public int GetVolume(string busName)
+    {
+        int busIndex = AudioServer.GetBusIndex(busName);
 
+        if (busIndex == -1)
+        {
+            GD.PrintErr($"Audio bus '{busName}' does not exist.");
+            return 0;
+        }
+
+        if (AudioServer.IsBusMute(busIndex))
+            return 0;
+
+        float db = AudioServer.GetBusVolumeDb(busIndex);
+        float linear = Mathf.DbToLinear(db);
+
+        return Mathf.RoundToInt(linear * 100);
+    }
+
+    public void SetVolume(string busName, int volume)
+    {
+        int busIndex = AudioServer.GetBusIndex(busName);
+
+        if (busIndex == -1)
+        {
+            GD.PrintErr($"Audio bus '{busName}' does not exist.");
+            return;
+        }
+
+        volume = Mathf.Clamp(volume, 0, 100);
+
+        if (volume == 0)
+        {
+            AudioServer.SetBusMute(busIndex, true);
+            return;
+        }
+
+        AudioServer.SetBusMute(busIndex, false);
+
+        float linear = volume / 100.0f;
+        float db = Mathf.LinearToDb(linear);
+
+        AudioServer.SetBusVolumeDb(busIndex, db);
+
+        var world = WorldStateManager.Instance;
+
+        if (world == null)
+            return;
+        switch (busName)
+        {
+            case "Master":
+                world.MasterVolume = volume;
+                break;
+
+            case "Music":
+                world.MusicVolume = volume;
+                break;
+
+            case "SFX":
+                world.SfxVolume = volume;
+                break;
+
+            case "Footsteps":
+                world.FootstepsVolume = volume;
+                break;
+        }
+        world.SaveGame();
+    }
+
+    public void IncreaseVolume(string busName)
+    {
+        int volume = GetVolume(busName);
+        SetVolume(busName, volume + 10);
+    }
+
+    public void DecreaseVolume(string busName)
+    {
+        int volume = GetVolume(busName);
+        SetVolume(busName, volume - 10);
+    }
+
+    private void ApplyMasterVolume()
+    {
+        int busIndex = AudioServer.GetBusIndex("Master");
+
+        if (masterVolume == 0)
+        {
+            AudioServer.SetBusMute(busIndex, true);
+            return;
+        }
+
+        AudioServer.SetBusMute(busIndex, false);
+
+        float linearVolume = masterVolume / 100f;
+        AudioServer.SetBusVolumeDb(busIndex, Mathf.LinearToDb(linearVolume));
+    }
+
+    // --- Background Music ---
     private void OnLevelLoaded(string scenePath)
     {
         GD.Print("AudioManager received scenePath: " + scenePath);
@@ -114,6 +215,7 @@ public partial class AudioManager : Node
         }
 
         _backgroundMusicPlayer = new AudioStreamPlayer();
+        _backgroundMusicPlayer.Bus = "Music";
         AddChild(_backgroundMusicPlayer);
 
         _backgroundMusicPlayer.Stream = stream;
@@ -179,6 +281,7 @@ public partial class AudioManager : Node
         string footStepType = data.GetCustomData("footstep_sounds").AsString();
 
         var player = new AudioStreamPlayer2D();
+        player.Bus = "Footsteps";
         AddChild(player);
 
         var rng = new Random();
